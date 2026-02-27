@@ -25,7 +25,7 @@ public class MemberController {
     }
 
 
-    @GetMapping("/all")
+    @GetMapping(name = "/all")
     public ResponseEntity<List<MemberDTO>> getMember(){
         List<MemberDTO> allMembers = memberService.getAllMembers();
 
