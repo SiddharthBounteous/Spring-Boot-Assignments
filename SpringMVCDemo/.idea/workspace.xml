@@ -4,33 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdaf64a5-fb62-4187-8980-2a055dc6e723" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../SpringMVC/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC/src/main/java/org/example/newPackage/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/com/siddh/library/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/com/siddh/library/controller/TransactionalController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/com/siddh/library/service/TransactionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../library/src/main/java/com/siddh/library/LibraryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library/src/main/java/com/siddh/library/LibraryApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../library/src/main/java/com/siddh/library/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library/src/main/java/com/siddh/library/controller/MemberController.java" afterDir="false" />
+    <list default="true" id="cdaf64a5-fb62-4187-8980-2a055dc6e723" name="Changes" comment="added spring mvc code">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +106,19 @@
       <option name="presentableId" value="Default" />
       <updated>1772168594547</updated>
     </task>
+    <task id="LOCAL-00001" summary="added spring mvc code">
+      <option name="closed" value="true" />
+      <created>1772211815548</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1772211815548</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added spring mvc code" />
+    <option name="LAST_COMMIT_MESSAGE" value="added spring mvc code" />
   </component>
 </project>
