@@ -1,0 +1,24 @@
+package com.siddh.FiltersAndInterceptorDemo.config;
+
+import com.siddh.FiltersAndInterceptorDemo.interceptors.RoleCheckInterceptor;
+import com.siddh.FiltersAndInterceptorDemo.interceptors.TimingInterceptor;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+@Configuration
+public class InterceptorConfig implements WebMvcConfigurer {
+    @Autowired
+    private RoleCheckInterceptor roleCheckInterceptor;
+
+    @Autowired
+    private TimingInterceptor timingInterceptor;
+
+    @Override
+    public void addInterceptors(InterceptorRegistry registry) {
+        registry.addInterceptor(roleCheckInterceptor)
+                        .addPathPatterns("/admin/*");  //play this interceptor only for this path
+        registry.addInterceptor(timingInterceptor);
+    }
+}
